@@ -51,7 +51,6 @@ a {
 }
 
 /* Inicia header mobile*/
-
 header {
   grid-area: header;
   background: linear-gradient(#5f5756, #827f7c, #b4afa9);
@@ -60,11 +59,8 @@ header {
 }
 
 /* Finaliza header mobile*/
-
-
 /* Inicia header desktop*/
-
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1094px) {
   header {
     grid-area: header;
     background: linear-gradient(#5f5756, #827f7c, #b4afa9);
@@ -76,12 +72,8 @@ header {
     height: auto;
   }
 }
-
 /* Finaliza header desktop*/
-
-
 /* Inicia ambas botoneras mobile*/
-
 .botonera-sup {
   display: flex;
   flex-direction: row;
@@ -95,8 +87,8 @@ header {
   background-color: #272322;
   color: #e4dbcf;
   border: none;
-  padding: 1px;
-  margin: 1px;
+  padding: 2px;
+  margin: 2px;
   font-size: 1.5rem;
   align-items: center;
   justify-content: center;
@@ -219,11 +211,8 @@ nav ul li .boton:hover {
 }
 
 /* Finaliza ambas botoneras mobile*/
-
-
 /* Inicia ambas botoneras desktop*/
-
-@media only screen and (min-width: 768px) {
+@media (min-width: 1094px) {
   .nav__toggle {
     display: none;
   }
@@ -248,8 +237,8 @@ nav ul li .boton:hover {
     background-color: #272322;
     color: #e4dbcf;
     border: none;
-    padding: 10px;
-    margin: 10px;
+    padding: 5px;
+    margin: 2px;
     font-size: 1.5rem;
     align-items: center;
     justify-content: space-around;
@@ -271,6 +260,8 @@ nav ul li .boton:hover {
   }
   .logo, .logo-dos {
     display: flex;
+    margin: 0%;
+    padding: 0%;
   }
   nav {
     display: flex;
@@ -288,8 +279,8 @@ nav ul li .boton:hover {
     align-items: center;
   }
   nav ul li {
-    padding: 10px;
-    margin: 10px;
+    padding: 2px;
+    margin: 2px;
     border-radius: 5px;
     text-align: center;
     width: auto;
@@ -298,7 +289,7 @@ nav ul li .boton:hover {
     text-decoration: none;
     font-family: "Inter", sans-serif;
     font-weight: 600;
-    line-height: 20px;
+    line-height: 10px;
     font-size: 15px;
     transition: 0.2s;
     color: black;
@@ -323,12 +314,8 @@ nav ul li .boton:hover {
     padding: 10px 10px;
   }
 }
-
 /* Finaliza ambas botoneras desktop*/
-
-
 /* Inicia seccion main/principal mobile*/
-
 main {
   background-color: #a39a92;
   font-family: "Inter", sans-serif;
@@ -347,12 +334,14 @@ main {
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  height: 95%;
+  max-width: 100%;
+  height: auto;
   background-size: cover;
   background-position: center center;
   background-color: #a39a92;
   font-family: "Inter", sans-serif;
-  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 25px;
   box-shadow: rgba(0, 0, 0, 0.55) 0px 15px 15px;
 }
 
@@ -367,10 +356,6 @@ main {
   background-position: center center;
   background-color: #a39a92;
   font-family: "Inter", sans-serif;
-}
-.imagen h1 {
-  margin: 5px;
-  padding: 5px;
 }
 
 .texto {
@@ -411,18 +396,16 @@ main {
 }
 
 /* Finaliza seccion main/principal mobile*/
-
-
 /* Inicia main/principal desktop */
-
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1094px) {
   .imagendesktop {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 95%;
+    max-width: 100%;
+    height: auto;
     background-size: cover;
     background-position: center center;
     background-color: #a39a92;
@@ -439,7 +422,8 @@ main {
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 95%;
+    max-width: 100%;
+    height: auto;
     background-size: cover;
     background-position: center center;
     background-color: #a39a92;
@@ -452,9 +436,12 @@ main {
     text-align: center;
     flex-direction: column;
     background-size: cover;
+    max-width: 100%;
+    height: auto;
     background-position: center center;
     background-color: #a39a92;
     font-family: "Inter", sans-serif;
+    box-sizing: border-box;
   }
   main {
     grid-area: main;
@@ -498,12 +485,8 @@ main {
     margin: 25px;
   }
 }
-
 /* Finaliza main/principal desktop */
-
-
 /* Finaliza aside mobile*/
-
 aside {
   background-color: #46403d;
   font-family: "Inter", sans-serif;
@@ -529,10 +512,8 @@ aside {
 }
 
 /* Finaliza aside mobile*/
-
-
 /* Inicia aside desktop*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1094px) {
   aside {
     grid-area: aside;
     background-color: #46403d;
@@ -641,7 +622,7 @@ footer {
 
 /* Finaliza footer mobile*/
 /* Inicia footer desktop*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1094px) {
   footer {
     grid-area: footer;
     background-color: #272322;
@@ -736,6 +717,8 @@ footer {
 /* Finaliza footer desktop*/
 /* Inicia seccion inicio desktop*/
 /* Finaliza seccion inicio desktop*/
+/* Inicia seccion inicio desktop*/
+/* Finaliza seccion inicio desktop*/
 /* Inicia seccion productos mobile */
 .contenedor-uno {
   display: flex;
@@ -816,7 +799,7 @@ footer {
 
 /* Finaliza seccion productos mobile */
 /* Inicia seccion productos desktop*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1094px) {
   .contenedor-mobile {
     display: none;
     justify-content: center;
@@ -876,6 +859,10 @@ footer {
   }
 }
 /* Finaliza seccion productos desktop*/
+/* Inicia seccion Retro desktop*/
+/* Finaliza seccion Retro desktop*/
+/* Inicia seccion Retro desktop*/
+/* Finaliza seccion Retro desktop*/
 /* Inicia seccion contacto mobile*/
 .container-form {
   display: flex;
@@ -969,7 +956,7 @@ footer {
 
 /* Finaliza seccion contacto mobile*/
 /* Inicia seccion contacto desktop*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1094px) {
   .container-form {
     width: 100%;
     max-width: 1100px;
@@ -1124,7 +1111,7 @@ footer {
 
 /* Finaliza seccion quienes somos mobile*/
 /* Inicia seccion quienes somos desktop*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1094px) {
   .nosotros {
     display: flex;
     flex-direction: row;

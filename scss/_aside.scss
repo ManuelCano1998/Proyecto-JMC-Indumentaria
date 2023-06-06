@@ -31,7 +31,7 @@ aside{
 
 /* Inicia aside desktop*/
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1094px) {
 
 aside {
     grid-area: aside;
@@ -47,7 +47,7 @@ aside {
     justify-content: center;
   
     p {
-      font-family: 'Inter', sans-serif;
+      font-family: $font-family;
       color: #e4dbcf;
       text-align: center;
       padding: 10px;

@@ -1,6 +1,6 @@
 /* Inicia ambas botoneras mobile*/
 
-.botonera-sup {
+  .botonera-sup {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -13,8 +13,8 @@
       background-color: #272322;
       color: #e4dbcf;
       border: none;
-      padding: 1px;
-      margin: 1px;
+      padding: 2px;
+      margin: 2px;
       font-size: 1.5rem;
       align-items: center;
       justify-content: center;
@@ -147,125 +147,125 @@
     color: black;
     font-family: $font-family;
   }
-  
 
 /* Finaliza ambas botoneras mobile*/
 
 
 /* Inicia ambas botoneras desktop*/
-
-@media only screen and (min-width: 768px) {
-    .nav__toggle {
-        display: none;
-      }
-      .nav__menu {
-        flex-direction: row;
-      }
-      .nav__menu li {
-        display: block;
-      }
+@media (min-width: 1094px){
+  .nav__toggle {
+      display: none;
+    }
+    .nav__menu {
+      flex-direction: row;
+    }
+    .nav__menu li {
+      display: block;
+    }
+  
+    .botonera-sup {
+      display: flex;
+      flex-flow: row nowrap;
+      text-align: center;
+      align-items: center;
+      flex-direction: row;
+      justify-content: end;
+      background-color: #272322;
+      color: #e4dbcf;
+      margin: 0px;
     
-      .botonera-sup {
-        display: flex;
-        flex-flow: row nowrap;
-        text-align: center;
-        align-items: center;
-        flex-direction: row;
-        justify-content: end;
+      button {
         background-color: #272322;
         color: #e4dbcf;
-        margin: 0px;
-      
-        button {
-          background-color: #272322;
-          color: #e4dbcf;
-          border: none;
-          padding: 10px;
-          margin: 10px;
-          font-size: 1.5rem;
+        border: none;
+        padding: 5px;
+        margin: 2px;
+        font-size: 1.5rem;
+        align-items: center;
+        justify-content: space-around;
+    
+        input {
+          justify-content: center;
           align-items: center;
-          justify-content: space-around;
-      
-          input {
-            justify-content: center;
-            align-items: center;
-            width: 250px;
-            background-color: #e4dbcf;
-            color: black;
-            border: 1px solid #e4dbcf;
-            border-radius: 4px;
-            font-size: 1.5rem;
-            padding: 5px;
-            margin: 5px;
-          }
+          width: 250px;
+          background-color: #e4dbcf;
+          color: black;
+          border: 1px solid #e4dbcf;
+          border-radius: 4px;
+          font-size: 1.5rem;
+          padding: 5px;
+          margin: 5px;
         }
       }
-      
-      .mobile {
-        display: none;
-      }
-      
-      .logo, .logo-dos {
-        display: flex;
-      }
-      
-      nav {
+    }
+    
+    .mobile {
+      display: none;
+    }
+    
+    .logo, .logo-dos {
+      display: flex;
+      margin: 0%;
+      padding: 0%;
+    }
+    
+    nav {
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      margin: 0%;
+    
+      ul {
         display: flex;
         flex-direction: row;
-        text-align: center;
+        flex-wrap: wrap;
+        list-style: none;
         align-items: center;
-        justify-content: center;
-        margin: 0%;
-      
-        ul {
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-          list-style: none;
-          align-items: center;
-      
-          li {
-            padding: 10px;
-            margin: 10px;
+    
+        li {
+          padding: 2px;
+          margin: 2px;
+          border-radius: 5px;
+          text-align: center;
+          width: auto;
+    
+          a {
+            text-decoration: none;
+            font-family: $font-family;
+            font-weight: 600;
+            line-height: 10px;
+            font-size: 15px;
+            transition: .2s;
+            color: black;
+            padding: 5px;
             border-radius: 5px;
-            text-align: center;
-            width: auto;
-      
-            a {
-              text-decoration: none;
-              font-family: $font-family;
-              font-weight: 600;
-              line-height: 20px;
-              font-size: 15px;
-              transition: .2s;
-              color: black;
-              padding: 5px;
-              border-radius: 5px;
-            }
-          }
-      
-          &:hover a {
-            filter: blur(1px);
-          }
-      
-          li a:hover {
-            transform: translateY(-3px) scale(1.05);
-            box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.3);
-            filter: none;
           }
         }
+    
+        &:hover a {
+          filter: blur(1px);
+        }
+    
+        li a:hover {
+          transform: translateY(-3px) scale(1.05);
+          box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.3);
+          filter: none;
+        }
       }
-      
-      :root {
-        --boton:#827f7c;
-      }
-      
-      nav ul li .boton:hover {
-        background: var(--boton);
-        border-radius: 5px;
-        margin: 10px;
-        padding: 10px 10px;
-      }
+    }
+    
+    :root {
+      --boton:#827f7c;
+    }
+    
+    nav ul li .boton:hover {
+      background: var(--boton);
+      border-radius: 5px;
+      margin: 10px;
+      padding: 10px 10px;
+    }
 }
 
 /* Finaliza ambas botoneras desktop*/

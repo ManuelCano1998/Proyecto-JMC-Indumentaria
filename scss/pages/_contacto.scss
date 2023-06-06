@@ -102,7 +102,7 @@
 
   /* Inicia seccion contacto desktop*/
   
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 1094px) {
     .container-form{
       width: 100%;
       max-width: 1100px;
@@ -121,12 +121,12 @@
     }
     
     .container-form p{
-        text-align: start;
-        color: black;
+      text-align: start;
+      color: black;
       font-size: 1.5rem;
       line-height: 1.5;
       margin: 5px;
-        border: none;
+      border: none;
     }
     
     .container-form a{
@@ -149,7 +149,7 @@
       padding: 15px 5px;
       font-size: 15px;
       text-decoration: none;
-      font-family:'Inter', sans-serif;
+      font-family: $font-family;
       border: 1px solid rgb(13, 19, 33);
       margin-bottom: 20px;
       border-radius: 3px;
