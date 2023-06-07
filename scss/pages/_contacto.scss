@@ -1,5 +1,5 @@
-/* Inicia seccion contacto mobile*/
 
+/* Inicia seccion contacto mobile*/
 @media only screen and (max-width: 767px) {
 .container-form {
     display: flex;
@@ -98,12 +98,10 @@
     }
   }
 }
-
 /* Finaliza seccion contacto mobile*/
 
 
 /* Inicia seccion contacto tablets y desktop*/
-  
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .container-form{
       width: 100%;
@@ -188,6 +186,5 @@
     }
 
 }
-
 /* Finaliza seccion contacto tablets y desktop*/
   

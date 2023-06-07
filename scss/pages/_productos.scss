@@ -1,5 +1,4 @@
 /* Inicia seccion productos mobile */
-
 @media only screen and (max-width: 767px) {
 .contenedor-uno {
     display: flex;
@@ -63,12 +62,10 @@
     }
   }
 }
-
 /* Finaliza seccion productos mobile */
   
   
 /* Inicia seccion productos tablets y desktop*/
-
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .contenedor-mobile {
       display: none;
@@ -121,5 +118,4 @@
     }
 
 }
-
 /* Finaliza seccion productos tablets y desktop*/

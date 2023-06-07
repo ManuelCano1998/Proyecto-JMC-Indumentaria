@@ -1,5 +1,5 @@
-/* Inicia header mobile*/
 
+/* Inicia header mobile*/
 @media only screen and (max-width: 767px) {
     header{
         grid-area: header;
@@ -8,12 +8,10 @@
         margin: 0%;
     }
 }
-
 /* Finaliza header mobile*/
 
 
 /* Inicia header Tablets y desktop*/
-
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     header {
         grid-area: header;
@@ -27,5 +25,4 @@
       }
       
 }
-
 /* Finaliza header Tablets y desktop*/

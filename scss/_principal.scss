@@ -1,5 +1,4 @@
 /* Inicia seccion main/principal mobile*/
-
 @media only screen and (max-width: 767px) {
 
   main{
@@ -71,14 +70,11 @@
       }
     }
   }
+/* Finaliza seccion main/principal mobile*/
   
-  /* Finaliza seccion main/principal mobile*/
   
-  
-  /* Inicia main/principal Tablets y desktop */
-  
-  @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  
+/* Inicia main/principal Tablets y desktop */ 
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   .imagendesktop {
       display: flex;
       align-items: center;
@@ -158,6 +154,5 @@
         margin: 25px;
       }
     }
-  }
-    
-  /* Finaliza main/principal Tablets y desktop */
+}
+/* Finaliza main/principal Tablets y desktop */

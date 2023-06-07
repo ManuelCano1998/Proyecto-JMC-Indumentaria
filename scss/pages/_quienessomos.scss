@@ -1,5 +1,5 @@
-/* Inicia seccion quienes somos mobile*/
 
+/* Inicia seccion quienes somos mobile*/
 @media only screen and (max-width: 767px) {
 .nosotros {
     display: flex;
@@ -72,12 +72,10 @@
     }
   }
 }
-
 /* Finaliza seccion Quienes somos mobile*/
 
 
 /* Inicia seccion quienes somos tablets y desktop*/
-
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .nosotros {
       display: flex;
@@ -131,5 +129,4 @@
       }
     }
   }
-
   /* Finaliza seccion Quienes somos tablets y desktop*/
