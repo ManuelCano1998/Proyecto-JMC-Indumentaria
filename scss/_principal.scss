@@ -1,160 +1,163 @@
 /* Inicia seccion main/principal mobile*/
-main{
-    background-color: #a39a92;
-    font-family: $font-family;
-    width: 100%;
-    height: 100%;
-    margin: 0%;
-}
 
-.imagendesktop {
-    display: none;
-  }
-  
-  .imagenmobile {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    max-width: 100%;
-    height: auto;
-    background-size: cover;
-    background-position: center center;
-    background-color: #a39a92;
-    font-family: $font-family;
-    margin-top: 0px;
-    margin-bottom: 25px;
-    box-shadow: rgb(0, 0, 0, 0.55) 0px 15px 15px;
-  }
-  
-  .imagen {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 95%;
-    background-size: cover;
-    background-position: center center;
-    background-color: #a39a92;
-    font-family: $font-family;
-  }
+@media only screen and (max-width: 767px) {
 
-  .texto {
-    @include textosec;
+  main{
+      background-color: $colormain;
+      font-family: $font-family;
+      width: 100%;
+      height: 100%;
+      margin: 0%;
+  }
   
-    h2 {
-      font-size: 1rem;
-      color: #e4dbcf;
-      padding: 2px;
-      margin: 2px;
-      text-align: center;
+  .imagendesktop {
+      display: none;
     }
-  
-    p {
-      margin: 5px;
-      padding: 5px;
+    
+    .imagenmobile {
       display: flex;
-      flex-direction: row;
       align-items: center;
       justify-content: center;
       text-align: center;
+      flex-direction: column;
+      max-width: 100%;
+      height: auto;
+      background-size: cover;
+      background-position: center center;
+      background-color: $colormain;
       font-family: $font-family;
-      font-size: 0.8rem;
-      color: #e4dbcf;
-      border: 2px solid #e4dbcf;
-      width: 95%;
+      margin-top: 0px;
+      margin-bottom: 25px;
+      box-shadow: rgb(0, 0, 0, 0.55) 0px 15px 15px;
     }
-  }
-
-/* Finaliza seccion main/principal mobile*/
-
-
-/* Inicia main/principal desktop */
-
-@media only screen and (min-width: 1094px) {
-
-.imagendesktop {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    max-width: 100%;
-    height: auto;
-    background-size: cover;
-    background-position: center center;
-    background-color: #a39a92;
-    box-shadow: rgb(0, 0, 0, 0.55) 0px 15px 15px;
-    font-family: $font-family;
-    margin-top: 0%;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-  }
-  
-  .imagenmobile {
-    display: none;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    max-width: 100%;
-    height: auto;
-    background-size: cover;
-    background-position: center center;
-    background-color: #a39a92;
-    font-family: $font-family;
-  }
-  
-  .imagen {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    background-size: cover;
-    max-width: 100%;
-    height: auto;
-    background-position: center center;
-    background-color: #a39a92;
-    font-family: $font-family;
-    box-sizing: border-box;
-  }
-  
-  main {
-    grid-area: main;
-    display: flex;
-    flex-direction: column;
-    font-family: $font-family;
-    width: 100%;
-    height: 100%;
-    background-color: #a39a92;
-    box-sizing: border-box;
-  }
-  
-  .texto{
-    @include textosec;
-
-    p {
+    
+    .imagen {
       display: flex;
-      flex-direction: row;
       align-items: center;
       justify-content: center;
       text-align: center;
+      flex-direction: column;
+      height: 95%;
+      background-size: cover;
+      background-position: center center;
+      background-color: #a39a92;
       font-family: $font-family;
-      font-size: 1rem;
-      color: rgb(240, 235, 216);
-      width: 95%;
-      height: 50%;
-      border: solid 5px;
-      border-color: rgb(240, 235, 216);
-      padding: 50px;
-      margin: 25px;
+    }
+  
+    .texto {
+      @include textosec;
+    
+      h2 {
+        font-size: 1rem;
+        color: #e4dbcf;
+        padding: 2px;
+        margin: 2px;
+        text-align: center;
+      }
+    
+      p {
+        margin: 5px;
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-family: $font-family;
+        font-size: 0.8rem;
+        color: #e4dbcf;
+        border: 2px solid #e4dbcf;
+        width: 95%;
+      }
     }
   }
   
-  }
+  /* Finaliza seccion main/principal mobile*/
   
-  /* Finaliza main/principal desktop */
+  
+  /* Inicia main/principal Tablets y desktop */
+  
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+  
+  .imagendesktop {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+      max-width: 100%;
+      height: auto;
+      background-size: cover;
+      background-position: center center;
+      background-color: #a39a92;
+      box-shadow: rgb(0, 0, 0, 0.55) 0px 15px 15px;
+      font-family: $font-family;
+      margin-top: 0%;
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-bottom: 50px;
+    }
+    
+    .imagenmobile {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+      max-width: 100%;
+      height: auto;
+      background-size: cover;
+      background-position: center center;
+      background-color: $colormain;
+      font-family: $font-family;
+    }
+    
+    .imagen {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+      background-size: cover;
+      max-width: 100%;
+      height: auto;
+      background-position: center center;
+      background-color: $colormain;
+      font-family: $font-family;
+      box-sizing: border-box;
+    }
+    
+    main {
+      grid-area: main;
+      display: flex;
+      flex-direction: column;
+      font-family: $font-family;
+      width: 100%;
+      height: 100%;
+      background-color: $colormain;
+      box-sizing: border-box;
+    }
+    
+    .texto{
+      @include textosec;
+  
+      p {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-family: $font-family;
+        font-size: 1rem;
+        color: rgb(240, 235, 216);
+        width: 95%;
+        height: 50%;
+        border: solid 5px;
+        border-color: rgb(240, 235, 216);
+        padding: 50px;
+        margin: 25px;
+      }
+    }
+  }
+    
+  /* Finaliza main/principal Tablets y desktop */

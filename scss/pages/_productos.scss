@@ -1,5 +1,6 @@
 /* Inicia seccion productos mobile */
 
+@media only screen and (max-width: 767px) {
 .contenedor-uno {
     display: flex;
     justify-content: center;
@@ -61,13 +62,14 @@
       margin: 10px;
     }
   }
+}
 
-  /* Finaliza seccion productos mobile */
+/* Finaliza seccion productos mobile */
   
   
-  /* Inicia seccion productos desktop*/
+/* Inicia seccion productos tablets y desktop*/
 
-  @media only screen and (min-width: 1094px){
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .contenedor-mobile {
       display: none;
       justify-content: center;
@@ -118,5 +120,6 @@
       }
     }
 
-  }   
-  /* Finaliza seccion productos desktop*/
+}
+
+/* Finaliza seccion productos tablets y desktop*/

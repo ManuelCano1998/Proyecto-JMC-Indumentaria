@@ -1,5 +1,6 @@
 /* Inicia seccion quienes somos mobile*/
 
+@media only screen and (max-width: 767px) {
 .nosotros {
     display: flex;
     flex-direction: column;
@@ -70,13 +71,14 @@
       color: #272322;
     }
   }
-  
-  /* Finaliza seccion quienes somos mobile*/
+}
+
+/* Finaliza seccion Quienes somos mobile*/
 
 
-  /* Inicia seccion quienes somos desktop*/
+/* Inicia seccion quienes somos tablets y desktop*/
 
-  @media only screen and (min-width: 1094px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
     .nosotros {
       display: flex;
       flex-direction: row;
@@ -128,7 +130,6 @@
         color: #272322;
       }
     }
-
   }
 
-    /* Finaliza seccion quienes somos desktop*/
+  /* Finaliza seccion Quienes somos tablets y desktop*/

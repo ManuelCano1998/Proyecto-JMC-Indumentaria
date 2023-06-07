@@ -4,10 +4,17 @@
 
 $font-family: 'Inter', sans-serif;
 $font-weight: bold;
+
 $font-titulo: 1.5rem;
 $font-titulo-secundario: 1.5rem;
+
 $colorlist: #272322;
 $colorfont: #272322;
+
+$colorheader: linear-gradient(#5f5756, #827f7c, #b4afa9);
+$colormain: #a39a92;
+$coloraside: #46403d;
+$colorfooter: #272322;
 
 body{
     font-family: $font-family;
@@ -19,7 +26,7 @@ body{
 h1{
     font-weight: $font-weight;
     font-size: $font-titulo;
-    color: #272322;
+    color: $colorfont;
     text-align: center;
     padding: 5px;
     font-size: 1.6rem;
@@ -28,7 +35,7 @@ h1{
 h2{
     font-weight: $font-weight;
     font-size: $font-titulo;
-    color: #272322;
+    color: $colorfont;
     text-align: center;
     padding: 5px;
     font-size: 1.2rem;
@@ -39,7 +46,7 @@ h3{
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #272322;
+    color: $colorfont;
     margin-top: 0px;
     padding-top: 0px;
     margin: 5px;
@@ -51,12 +58,13 @@ h3{
 
 ul ol{
     list-style-type: none;
-    color: #272322;
+    color: $colorfont;
 }
 
 a{
     text-decoration: none;
 }
+
 
 @mixin cardsec{
     box-shadow: rgb(0, 0, 0, 0.55) 0px 15px 15px;

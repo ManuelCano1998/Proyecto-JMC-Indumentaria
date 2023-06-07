@@ -1,21 +1,23 @@
 /* Inicia header mobile*/
 
-header{
-    grid-area: header;
-    background: linear-gradient(#5f5756, #827f7c, #b4afa9);
-    font-family: $font-family;
-    margin: 0%;
+@media only screen and (max-width: 767px) {
+    header{
+        grid-area: header;
+        background: $colorheader;
+        font-family: $font-family;
+        margin: 0%;
+    }
 }
 
 /* Finaliza header mobile*/
 
 
-/* Inicia header desktop*/
+/* Inicia header Tablets y desktop*/
 
-@media only screen and (min-width: 1094px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
     header {
         grid-area: header;
-        background: linear-gradient(#5f5756, #827f7c, #b4afa9);
+        background: $colorheader;
         font-family: $font-family;
         margin: 0px;
         display: flex;
@@ -26,4 +28,4 @@ header{
       
 }
 
-/* Finaliza header desktop*/
+/* Finaliza header Tablets y desktop*/
