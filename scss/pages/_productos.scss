@@ -21,7 +21,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5px;
+    margin: 0px;
     padding: 5px;
   }
   
@@ -35,6 +35,9 @@
   
   .card-dos {
     @include cardsec;
+    h3{
+      font-size: 0.4rem;
+    }
   }
   
   .imagen-secundaria {
@@ -81,13 +84,17 @@
     align-items: center;
     margin: 5px;
     padding: 5px;
+
+    h2{
+      font-size: 0.5rem;
+    }
   }
 
   .card-dos{
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     box-shadow: rgb(0, 0, 0, 0.55) 0px 15px 15px;
-    margin: 5px;
+    margin: 2px;
     padding: 5px;
   }
 
@@ -95,8 +102,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3px;
-    padding: 3px;
+    margin: 5px;
+    padding: 5px;
   }
 
   .imagenes-principales {

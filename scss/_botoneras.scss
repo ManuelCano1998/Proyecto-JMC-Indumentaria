@@ -8,6 +8,7 @@
     background-color: #272322;
     padding: 5px;
     margin: 0px;
+    gap: 10px;
   
     button {
       background-color: #272322;
@@ -37,8 +38,8 @@
     display: none;
     align-items: center;
     justify-content: center;
-    padding: 0%;
-    margin: 0%;
+    padding: 5px;
+    margin: 0px;
   }
   
   .logo-dos {
@@ -51,19 +52,21 @@
   .nav__toggle {
     position: absolute;
     cursor: pointer;
-    margin: 0rem 1rem;
+    margin: 0rem 1.5rem;
     right: 0;
   }
   
   .close, input[type="checkbox"] {
     display: none;
-    margin-top: 3.5rem;
-    width: 35px;
+    margin-top: 3rem;
+    width: 40px;
+    justify-content: space-evenly;
   }
   
   .hamburguesa {
-    margin-top: 3.5rem;
-    width: 35px;
+    margin-top: 3rem;
+    width: 40px;
+    justify-content: space-evenly;
   }
   
   .nav__menu {
@@ -72,7 +75,7 @@
     justify-content: center;
     gap: 1rem;
     margin: 5px;
-    padding: 5px;
+    padding: 20px;
   }
   
   nav ul li {
@@ -164,6 +167,8 @@
   }
   .nav__menu {
     flex-direction: row;
+    margin: 0px;
+    padding: 10px;
   }
   .nav__menu li {
     display: block;
@@ -178,28 +183,32 @@
     background-color: #272322;
     color: #e4dbcf;
     margin: 0px;
+    padding: 5px;
+    padding-right: 50px;
+    gap: 50px;
   
     button {
       background-color: #272322;
       color: #e4dbcf;
       border: none;
       padding: 5px;
-      margin: 2px;
+      margin: 0px;
       font-size: 1.5rem;
       align-items: center;
-      justify-content: space-around;
+      justify-content: space-between;
   
       input {
         justify-content: center;
         align-items: center;
         width: 250px;
+        height: 45px;
         background-color: #e4dbcf;
         color: black;
         border: 1px solid #e4dbcf;
-        border-radius: 4px;
+        border-radius: 5px;
         font-size: 1.5rem;
         padding: 5px;
-        margin: 5px;
+        margin: 0px;
       }
     }
   }
@@ -210,8 +219,8 @@
   
   .logo, .logo-dos {
     display: flex;
-    margin: 0%;
-    padding: 0%;
+    margin: 0px;
+    padding: 5px;
   }
   
   nav {
@@ -219,8 +228,9 @@
     flex-direction: row;
     text-align: center;
     align-items: center;
-    justify-content: center;
-    margin: 0%;
+    justify-content: space-evenly;
+    margin: 0px;
+    padding: 40px;
   
     ul {
       display: flex;
@@ -230,8 +240,8 @@
       align-items: center;
   
       li {
-        padding: 2px;
-        margin: 2px;
+        padding: 5px;
+        margin: 5px;
         border-radius: 5px;
         text-align: center;
         width: auto;
@@ -240,7 +250,7 @@
           text-decoration: none;
           font-family: $font-family;
           font-weight: 600;
-          line-height: 10px;
+          line-height: 5px;
           font-size: 15px;
           transition: .2s;
           color: black;
