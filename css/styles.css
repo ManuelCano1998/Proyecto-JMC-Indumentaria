@@ -24,7 +24,7 @@ h2 {
   color: #272322;
   text-align: center;
   padding: 5px;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 h3 {
@@ -60,6 +60,8 @@ a {
   }
 }
 /* Finaliza header mobile*/
+
+
 /* Inicia header Tablets y desktop*/
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   header {
@@ -74,6 +76,8 @@ a {
   }
 }
 /* Finaliza header Tablets y desktop*/
+
+
 /* Inicia ambas botoneras mobile*/
 @media only screen and (max-width: 767px) {
   .botonera-sup {
@@ -198,6 +202,8 @@ a {
   }
 }
 /* Finaliza ambas botoneras mobile*/
+
+
 /* Inicia ambas botoneras Tablets y desktop*/
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .nav__toggle {
@@ -296,7 +302,7 @@ a {
   }
   nav ul li .boton:hover {
     background: var(--boton);
-    border-radius: 5px;
+    border-radius: 4px;
     margin: 10px;
     padding: 10px 10px;
   }
