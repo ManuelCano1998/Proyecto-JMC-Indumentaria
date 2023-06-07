@@ -10,8 +10,8 @@
 /* Finaliza header mobile*/
 
 
-/* Inicia header Tablets y desktop*/
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+/* Inicia header tablets y desktop */
+@media only screen and (min-width: 768px) {
     header {
         grid-area: header;
         background: $colorheader;
@@ -22,6 +22,5 @@
         width: 100%;
         height: auto;
       }
-      
 }
-/* Finaliza header Tablets y desktop*/
+/* Finaliza header tablets y desktop */

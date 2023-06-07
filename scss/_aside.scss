@@ -27,39 +27,34 @@
     }
   }
 /* Finaliza aside mobile*/
-  
-  
-/* Inicia aside Tablets y desktop*/
-  @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  
+
+@media only screen and (min-width: 768px) {
   aside {
-      grid-area: aside;
-      background-color: $coloraside;
-      font-family: $font-family;
-      margin: 0%;
-    }
-    
-    .mapa {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-    
-      p {
-        font-family: $font-family;
-        color: #e4dbcf;
-        text-align: center;
-        padding: 10px;
-        margin: 10px;
-        font-size: 1.5rem;
-      }
-    
-      iframe {
-        margin: 15px;
-        padding: 15px;
-        border: none;
-      }
-    }
-      
+    grid-area: aside;
+    background-color: $coloraside;
+    font-family: $font-family;
+    margin: 0%;
   }
-/* Finaliza aside Tablets y desktop*/
+  
+  .mapa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  
+    p {
+      font-family: $font-family;
+      color: #e4dbcf;
+      text-align: center;
+      padding: 10px;
+      margin: 10px;
+      font-size: 1.5rem;
+    }
+  
+    iframe {
+      margin: 15px;
+      padding: 15px;
+      border: none;
+    }
+  }
+}
