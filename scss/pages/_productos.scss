@@ -2,17 +2,18 @@
 @media only screen and (min-width: 220px) and (max-width: 480px) {
   .contenedor-general{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     gap: 5px;
-    padding: 5px;
-    margin: 5px;
+    padding: 2px;
+    margin: 0px;
   }
 
   .card{
-    width: 8rem;
+    width: 10rem;
     padding: 2px;
-    margin: 2px;
+    margin: 0px;
     border: solid 1px black;
     box-shadow: rgb(0, 0, 0, 0.55) 0px 15px 15px;
     justify-content: center;
@@ -21,10 +22,10 @@
     background-color: $colormain;
 
     img{
-      width: 3rem;
+      width: 8rem;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
       border: solid 1px black;    
-      margin: 5px;
+      margin: 4px;
     }
 
     body{
