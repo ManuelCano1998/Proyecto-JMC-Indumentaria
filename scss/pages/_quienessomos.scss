@@ -35,9 +35,9 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        font-family: 'Inter', sans-serif;
-        color: #272322;
-        border: 2px solid #272322;
+        font-family: $font-family;
+        color: $colorfont;
+        border: 2px solid $colorfont;
     }
   }
   
@@ -61,20 +61,78 @@
       font-size: 0.8rem;
       margin: 5px;
       padding: 5px;
-      color: #272322;
-      border: 2px solid #272322;
+      color: $colorfont;
+      border: 2px solid $colorfont;
     }
     
     .dos {
       display: none;
-      color: #272322;
+      color: $colorfont;
     }
   }
 }
-/* Finaliza seccion Quienes somos mobile*/
+/* Finaliza seccion Quienes somos Mobile*/
 
-/* Inicia seccion Quienes somos tablets y desktop */
-@media only screen and (min-width: 768px) {
+
+/* Inicia seccion Quienes somos Tablets*/
+@media only screen and (min-width: 768px) and (max-width: 972px){
+  .nosotros {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 20px;
+  
+    img {
+      width: 300px;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin: 10px;
+      padding: 10px;
+      box-shadow: rgb(0, 0, 0, 0.55) 0px 15px 15px;
+    }
+  
+    .texto {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      background-color: #a39a92;
+      font-size: 1rem;
+      padding: 0px;
+      margin: 10px;
+    }
+  }
+  
+  .texto-q{   
+    p {
+      font-size: 1rem;
+      line-height: 1.5;
+      height: auto;
+      width: auto;
+      margin: 8px;
+      padding: 8px;
+      border: none;
+      justify-content: start;
+      align-items: start;
+      text-align: start;
+      font-family: $font-family;
+      color: $colorfont;
+    }
+    
+    .dos {
+      display: flex;
+      color: $colorfont;
+    }
+  }
+}
+/* Finaliza seccion Quienes somos Tablets*/
+
+
+/* Inicia seccion Quienes somos Desktop */
+@media only screen and (min-width: 973px) {
   .nosotros {
     display: flex;
     flex-direction: row;
@@ -105,7 +163,7 @@
     }
   }
   
-  .texto-q{    
+  .texto-q{   
     p {
       font-size: 1.5rem;
       line-height: 1.5;
@@ -118,13 +176,13 @@
       align-items: start;
       text-align: start;
       font-family: $font-family;
-      color: #272322;
+      color: $colorfont;
     }
     
     .dos {
       display: flex;
-      color: #272322;
+      color: $colorfont;
     }
   }
 }
-/* Finaliza seccion Quienes somos tablets y desktop */
+/* Finaliza seccion Quienes somos Desktop */

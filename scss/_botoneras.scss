@@ -1,4 +1,4 @@
-/* Inicia ambas botoneras mobile*/
+/* Inicia ambas botoneras Mobile*/
 @media only screen and (max-width: 767px) {
   .botonera-sup {
     display: flex;
@@ -151,10 +151,143 @@
     font-family: $font-family;
   }
 }
-/* Finaliza ambas botoneras mobile*/
+/* Finaliza ambas botoneras Mobile*/
 
-/* Inicia ambas botoneras tablets y desktop */
-@media only screen and (min-width: 768px) {
+/* Inicia ambas botoneras Tablets*/
+@media only screen and (min-width: 768px) and (max-width: 972px) {
+
+  .close, input[type="checkbox"] {
+    display: none;
+    margin-top: 3.5rem;
+    width: 35px;
+  }
+
+  .nav__toggle {
+    display: none;
+  }
+  .nav__menu {
+    flex-direction: row;
+    margin: 0px;
+    padding: 10px;
+  }
+  .nav__menu li {
+    display: block;
+  }
+
+  .botonera-sup {
+    display: flex;
+    flex-flow: row nowrap;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: end;
+    background-color: #272322;
+    color: #e4dbcf;
+    margin: 0px;
+    padding: 5px;
+    padding-right: 50px;
+    gap: 50px;
+  
+    button {
+      background-color: #272322;
+      color: #e4dbcf;
+      border: none;
+      padding: 5px;
+      margin: 0px;
+      font-size: 1.5rem;
+      align-items: center;
+      justify-content: space-between;
+  
+      input {
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        height: 45px;
+        background-color: #e4dbcf;
+        color: black;
+        border: 1px solid #e4dbcf;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        padding: 5px;
+        margin: 0px;
+      }
+    }
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px;
+    padding: 25px;
+  
+    ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      list-style: none;
+      align-items: center;
+  
+      li {
+        padding: 3px;
+        margin: 3px;
+        border-radius: 5px;
+        text-align: center;
+        width: auto;
+  
+        a {
+          text-decoration: none;
+          font-family: $font-family;
+          font-weight: 600;
+          line-height: 5px;
+          font-size: 10px;
+          transition: .2s;
+          color: black;
+          padding: 5px;
+          border-radius: 5px;
+        }
+      }
+  
+      &:hover a {
+        filter: blur(1px);
+      }
+  
+      li a:hover {
+        transform: translateY(-3px) scale(1.05);
+        box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.3);
+        filter: none;
+      }
+    }
+  }
+  
+  :root {
+    --boton:#827f7c;
+  }
+  
+  nav ul li .boton:hover {
+    background: var(--boton);
+    border-radius: 5px;
+    margin: 8px;
+    padding: 8px 8px;
+  }
+
+  .logo, .logo-dos {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+/* Finaliza ambas botoneras Tablets*/
+
+
+/* Inicia ambas botoneras Desktop */
+@media only screen and (min-width: 973px) {
 
   .close, input[type="checkbox"] {
     display: none;
@@ -282,4 +415,4 @@
     padding: 10px 10px;
   }
 }
-/* Finaliza ambas botoneras tablets y desktop */
+/* Finaliza ambas botoneras Desktop */
