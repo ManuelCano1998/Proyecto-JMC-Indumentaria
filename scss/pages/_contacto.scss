@@ -1,5 +1,5 @@
 /* Inicia seccion contacto Mobile*/
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 480px) {
 .container-form {
     display: flex;
     width: auto;
@@ -101,7 +101,7 @@
 
 
 /* Inicia seccion contacto Tablets */
-@media only screen and (min-width: 768px) and (max-width: 972px){
+@media only screen and (min-width: 481px) and (max-width: 1023px){
   .container-form{
     width: 100%;
     margin: auto;
@@ -183,7 +183,7 @@
 
 
 /* Inicia seccion contacto Desktop */
-@media only screen and (min-width: 973px) {
+@media only screen and (min-width: 1024px) {
   .container-form{
     width: 100%;
     max-width: 1100px;

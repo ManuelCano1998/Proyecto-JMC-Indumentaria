@@ -1,5 +1,5 @@
 /* Inicia ambas botoneras Mobile*/
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 480px) {
   .botonera-sup {
     display: flex;
     flex-direction: row;
@@ -154,7 +154,7 @@
 /* Finaliza ambas botoneras Mobile*/
 
 /* Inicia ambas botoneras Tablets*/
-@media only screen and (min-width: 768px) and (max-width: 972px) {
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
 
   .close, input[type="checkbox"] {
     display: none;
@@ -180,7 +180,7 @@
     text-align: center;
     align-items: center;
     flex-direction: row;
-    justify-content: end;
+    justify-content: center;
     background-color: #272322;
     color: #e4dbcf;
     margin: 0px;
@@ -287,7 +287,7 @@
 
 
 /* Inicia ambas botoneras Desktop */
-@media only screen and (min-width: 973px) {
+@media only screen and (min-width: 1024px) {
 
   .close, input[type="checkbox"] {
     display: none;

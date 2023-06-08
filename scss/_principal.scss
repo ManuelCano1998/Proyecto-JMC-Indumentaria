@@ -1,5 +1,5 @@
 /* Inicia seccion main/principal Mobile*/
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 480px) {
 
   main{
       background-color: $colormain;
@@ -76,7 +76,7 @@
 
 
 /* Inicia seccion main/principal Tablets*/
-@media only screen and (min-width: 768px) and (max-width: 972px) {
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
   .imagendesktop {
     display: flex;
     align-items: center;
@@ -161,14 +161,14 @@
 
 
 /* Inicia seccion main/principal Desktop */
-@media only screen and (min-width: 973px) {
+@media only screen and (min-width: 1024px) {
   .imagendesktop {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    max-width: 100%;
+    max-width: 95%;
     height: auto;
     background-size: cover;
     background-position: center center;

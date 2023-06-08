@@ -1,5 +1,5 @@
 /* Inicia header mobile*/
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 480px) {
     header{
         grid-area: header;
         background: $colorheader;
@@ -10,8 +10,24 @@
 /* Finaliza header mobile*/
 
 
+/* Inicia header Tablets*/
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+    header {
+        grid-area: header;
+        background: $colorheader;
+        font-family: $font-family;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+      }
+}
+/* Finaliza header Tablets*/
+
+
 /* Inicia header tablets y desktop */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
     header {
         grid-area: header;
         background: $colorheader;
