@@ -1,5 +1,5 @@
 /* Inicia seccion productos Mobile */
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 220px) and (max-width: 480px) {
   .contenedor-general{
     display: flex;
     flex-direction: row;
@@ -21,7 +21,7 @@
     background-color: $colormain;
 
     img{
-      width: 4rem;
+      width: 3rem;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
       border: solid 1px black;    
       margin: 5px;

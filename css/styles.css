@@ -51,7 +51,7 @@ a {
 }
 
 /* Inicia header mobile*/
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 220px) and (max-width: 480px) {
   header {
     grid-area: header;
     background: linear-gradient(#5f5756, #827f7c, #b4afa9);
@@ -89,7 +89,7 @@ a {
 }
 /* Finaliza header tablets y desktop */
 /* Inicia ambas botoneras Mobile*/
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 220px) and (max-width: 480px) {
   .botonera-sup {
     display: flex;
     flex-direction: row;
@@ -237,7 +237,7 @@ a {
     display: flex;
     flex-flow: row nowrap;
     text-align: center;
-    align-items: center;
+    align-items: end;
     flex-direction: row;
     justify-content: center;
     background-color: #272322;
@@ -245,7 +245,7 @@ a {
     margin: 0px;
     padding: 5px;
     padding-right: 50px;
-    gap: 50px;
+    gap: 40px;
   }
   .botonera-sup button {
     background-color: #272322;
@@ -449,7 +449,7 @@ a {
 }
 /* Finaliza ambas botoneras Desktop */
 /* Inicia seccion main/principal Mobile*/
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 220px) and (max-width: 480px) {
   main {
     background-color: #a39a92;
     font-family: "Inter", sans-serif;
@@ -709,7 +709,7 @@ a {
 }
 /* Finaliza seccion main/principal Desktop */
 /* Finaliza aside Mobile*/
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 220px) and (max-width: 480px) {
   aside {
     background-color: #46403d;
     font-family: "Inter", sans-serif;
@@ -793,7 +793,7 @@ a {
 }
 /* Inicia footer Desktop*/
 /* Inicia footer Mobile*/
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 220px) and (max-width: 480px) {
   .texto-foot {
     display: flex;
     flex-direction: row;
@@ -1085,7 +1085,7 @@ a {
 /* Inicia seccion inicio desktop*/
 /* Finaliza seccion inicio desktop*/
 /* Inicia seccion productos Mobile */
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 220px) and (max-width: 480px) {
   .contenedor-general {
     display: flex;
     flex-direction: row;
@@ -1106,7 +1106,7 @@ a {
     background-color: #a39a92;
   }
   .card img {
-    width: 4rem;
+    width: 3rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border: solid 1px black;
     margin: 5px;
@@ -1400,7 +1400,7 @@ a {
 /* Inicia seccion Retro desktop*/
 /* Finaliza seccion Retro desktop*/
 /* Inicia seccion contacto Mobile*/
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 220px) and (max-width: 480px) {
   .container-form {
     display: flex;
     width: auto;
@@ -1640,7 +1640,7 @@ a {
 }
 /* Finaliza seccion productos Desktop */
 /* Inicia seccion quienes somos mobile*/
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 220px) and (max-width: 480px) {
   .nosotros {
     display: flex;
     flex-direction: column;
