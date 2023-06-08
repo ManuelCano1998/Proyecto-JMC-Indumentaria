@@ -153,6 +153,7 @@
 }
 /* Finaliza ambas botoneras Mobile*/
 
+
 /* Inicia ambas botoneras Tablets*/
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
 
@@ -279,6 +280,7 @@
 
   .logo, .logo-dos {
     display: flex;
+    justify-content: center;
     margin: 0px;
     padding: 0px;
   }
