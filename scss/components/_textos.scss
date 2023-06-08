@@ -1,0 +1,16 @@
+@mixin textosec{
+    background-color: #6e6762;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    h2{
+        font-size: 1.2rem;
+        color: #e4dbcf;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+    }
+}

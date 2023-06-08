@@ -448,266 +448,6 @@ a {
   }
 }
 /* Finaliza ambas botoneras Desktop */
-/* Inicia seccion main/principal Mobile*/
-@media only screen and (min-width: 220px) and (max-width: 480px) {
-  main {
-    background-color: #a39a92;
-    font-family: "Inter", sans-serif;
-    width: 100%;
-    height: 100%;
-    margin: 0%;
-  }
-  .imagendesktop {
-    display: none;
-  }
-  .imagenmobile {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    max-width: 100%;
-    height: auto;
-    background-size: cover;
-    background-position: center center;
-    background-color: #a39a92;
-    font-family: "Inter", sans-serif;
-    margin-top: 0px;
-    margin-bottom: 35px;
-    box-shadow: rgba(0, 0, 0, 0.55) 0px 15px 15px;
-  }
-  .imagen {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 95%;
-    background-size: cover;
-    background-position: center center;
-    background-color: #a39a92;
-    font-family: "Inter", sans-serif;
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-  .texto {
-    background-color: #6e6762;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  .texto h2 {
-    font-size: 1.2rem;
-    color: #e4dbcf;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-  }
-  .texto h2 {
-    font-size: 1rem;
-    color: #e4dbcf;
-    padding: 2px;
-    margin: 2px;
-    text-align: center;
-  }
-  .texto p {
-    margin: 5px;
-    padding: 5px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-family: "Inter", sans-serif;
-    font-size: 0.8rem;
-    color: #e4dbcf;
-    border: 2px solid #e4dbcf;
-    width: 95%;
-  }
-}
-/* Finaliza seccion main/principal Mobile*/
-/* Inicia seccion main/principal Tablets*/
-@media only screen and (min-width: 481px) and (max-width: 1024px) {
-  .imagendesktop {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    max-width: 90%;
-    height: auto;
-    background-size: cover;
-    background-position: center center;
-    background-color: #a39a92;
-    box-shadow: rgba(0, 0, 0, 0.55) 0px 15px 15px;
-    font-family: "Inter", sans-serif;
-    margin-top: 0px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-  }
-  .imagenmobile {
-    display: none;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    max-width: 100%;
-    height: auto;
-    background-size: cover;
-    background-position: center center;
-    background-color: #a39a92;
-    font-family: "Inter", sans-serif;
-  }
-  .imagen {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    background-size: cover;
-    max-width: 100%;
-    height: auto;
-    background-position: center center;
-    background-color: #a39a92;
-    font-family: "Inter", sans-serif;
-    box-sizing: border-box;
-  }
-  main {
-    grid-area: main;
-    display: flex;
-    flex-direction: column;
-    font-family: "Inter", sans-serif;
-    width: 100%;
-    height: 100%;
-    background-color: #a39a92;
-    box-sizing: border-box;
-  }
-  .texto {
-    background-color: #6e6762;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  .texto h2 {
-    font-size: 1.2rem;
-    color: #e4dbcf;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-  }
-  .texto p {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-family: "Inter", sans-serif;
-    font-size: 1rem;
-    color: rgb(240, 235, 216);
-    width: 95%;
-    height: 50%;
-    border: solid 5px;
-    border-color: rgb(240, 235, 216);
-    padding: 50px;
-    margin: 25px;
-  }
-}
-/* Finaliza seccion main/principal Tablets */
-/* Inicia seccion main/principal Desktop */
-@media only screen and (min-width: 1024px) {
-  .imagendesktop {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    max-width: 95%;
-    height: auto;
-    background-size: cover;
-    background-position: center center;
-    background-color: #a39a92;
-    box-shadow: rgba(0, 0, 0, 0.55) 0px 15px 15px;
-    font-family: "Inter", sans-serif;
-    margin-top: 0%;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-  }
-  .imagenmobile {
-    display: none;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    max-width: 100%;
-    height: auto;
-    background-size: cover;
-    background-position: center center;
-    background-color: #a39a92;
-    font-family: "Inter", sans-serif;
-  }
-  .imagen {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    background-size: cover;
-    max-width: 100%;
-    height: auto;
-    background-position: center center;
-    background-color: #a39a92;
-    font-family: "Inter", sans-serif;
-    box-sizing: border-box;
-  }
-  main {
-    grid-area: main;
-    display: flex;
-    flex-direction: column;
-    font-family: "Inter", sans-serif;
-    width: 100%;
-    height: 100%;
-    background-color: #a39a92;
-    box-sizing: border-box;
-  }
-  .texto {
-    background-color: #6e6762;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  .texto h2 {
-    font-size: 1.2rem;
-    color: #e4dbcf;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-  }
-  .texto p {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-family: "Inter", sans-serif;
-    font-size: 1rem;
-    color: rgb(240, 235, 216);
-    width: 95%;
-    height: 50%;
-    border: solid 5px;
-    border-color: rgb(240, 235, 216);
-    padding: 50px;
-    margin: 25px;
-  }
-}
-/* Finaliza seccion main/principal Desktop */
 /* Finaliza aside Mobile*/
 @media only screen and (min-width: 220px) and (max-width: 480px) {
   aside {
@@ -1080,6 +820,266 @@ a {
   }
 }
 /* Finaliza footer Desktop */
+/* Inicia seccion Index/main Mobile*/
+@media only screen and (min-width: 220px) and (max-width: 480px) {
+  main {
+    background-color: #a39a92;
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+  }
+  .imagendesktop {
+    display: none;
+  }
+  .imagenmobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center center;
+    background-color: #a39a92;
+    font-family: "Inter", sans-serif;
+    margin-top: 0px;
+    margin-bottom: 35px;
+    box-shadow: rgba(0, 0, 0, 0.55) 0px 15px 15px;
+  }
+  .imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 95%;
+    background-size: cover;
+    background-position: center center;
+    background-color: #a39a92;
+    font-family: "Inter", sans-serif;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .texto {
+    background-color: #6e6762;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .texto h2 {
+    font-size: 1.2rem;
+    color: #e4dbcf;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  .texto h2 {
+    font-size: 1rem;
+    color: #e4dbcf;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+  }
+  .texto p {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 0.8rem;
+    color: #e4dbcf;
+    border: 2px solid #e4dbcf;
+    width: 95%;
+  }
+}
+/* Finaliza seccion Index/main Mobile*/
+/* Inicia seccion Index/main Tablets*/
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .imagendesktop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    max-width: 90%;
+    height: auto;
+    background-size: cover;
+    background-position: center center;
+    background-color: #a39a92;
+    box-shadow: rgba(0, 0, 0, 0.55) 0px 15px 15px;
+    font-family: "Inter", sans-serif;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  }
+  .imagenmobile {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center center;
+    background-color: #a39a92;
+    font-family: "Inter", sans-serif;
+  }
+  .imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    background-position: center center;
+    background-color: #a39a92;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+  }
+  main {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    height: 100%;
+    background-color: #a39a92;
+    box-sizing: border-box;
+  }
+  .texto {
+    background-color: #6e6762;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .texto h2 {
+    font-size: 1.2rem;
+    color: #e4dbcf;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  .texto p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    color: rgb(240, 235, 216);
+    width: 95%;
+    height: 50%;
+    border: solid 5px;
+    border-color: rgb(240, 235, 216);
+    padding: 50px;
+    margin: 25px;
+  }
+}
+/* Finaliza seccion Index/main Tablets */
+/* Inicia seccion Index/main Desktop */
+@media only screen and (min-width: 1024px) {
+  .imagendesktop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    max-width: 95%;
+    height: auto;
+    background-size: cover;
+    background-position: center center;
+    background-color: #a39a92;
+    box-shadow: rgba(0, 0, 0, 0.55) 0px 15px 15px;
+    font-family: "Inter", sans-serif;
+    margin-top: 0%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  }
+  .imagenmobile {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center center;
+    background-color: #a39a92;
+    font-family: "Inter", sans-serif;
+  }
+  .imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    background-position: center center;
+    background-color: #a39a92;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+  }
+  main {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    height: 100%;
+    background-color: #a39a92;
+    box-sizing: border-box;
+  }
+  .texto {
+    background-color: #6e6762;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .texto h2 {
+    font-size: 1.2rem;
+    color: #e4dbcf;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  .texto p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    color: rgb(240, 235, 216);
+    width: 95%;
+    height: 50%;
+    border: solid 5px;
+    border-color: rgb(240, 235, 216);
+    padding: 50px;
+    margin: 25px;
+  }
+}
+/* Finaliza seccion Index/main Desktop */
 /* Inicia seccion productos Mobile */
 @media only screen and (min-width: 220px) and (max-width: 480px) {
   .contenedor-general {

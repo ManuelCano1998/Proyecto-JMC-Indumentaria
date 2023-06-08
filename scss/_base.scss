@@ -64,29 +64,3 @@ ul ol{
 a{
     text-decoration: none;
 }
-
-
-@mixin cardsec{
-    box-shadow: rgb(0, 0, 0, 0.55) 0px 15px 15px;
-    margin: 2px;
-    padding: 2px;
-    align-items: center;
-    justify-content: space-around;
-}
-
-@mixin textosec{
-    background-color: #6e6762;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-
-    h2{
-        font-size: 1.2rem;
-        color: #e4dbcf;
-        padding: 10px;
-        margin: 10px;
-        text-align: center;
-    }
-}

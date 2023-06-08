@@ -1,6 +1,5 @@
-/* Inicia seccion main/principal Mobile*/
+/* Inicia seccion Index/main Mobile*/
 @media only screen and (min-width: 220px) and (max-width: 480px) {
-
   main{
       background-color: $colormain;
       font-family: $font-family;
@@ -72,10 +71,10 @@
       }
     }
   }
-/* Finaliza seccion main/principal Mobile*/
+/* Finaliza seccion Index/main Mobile*/
 
 
-/* Inicia seccion main/principal Tablets*/
+/* Inicia seccion Index/main Tablets*/
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
   .imagendesktop {
     display: flex;
@@ -157,10 +156,10 @@
     }
   }
 }
-/* Finaliza seccion main/principal Tablets */
+/* Finaliza seccion Index/main Tablets */
 
 
-/* Inicia seccion main/principal Desktop */
+/* Inicia seccion Index/main Desktop */
 @media only screen and (min-width: 1024px) {
   .imagendesktop {
     display: flex;
@@ -242,4 +241,4 @@
     }
   }
 }
-/* Finaliza seccion main/principal Desktop */
+/* Finaliza seccion Index/main Desktop */
