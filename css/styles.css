@@ -1080,10 +1080,6 @@ a {
   }
 }
 /* Finaliza footer Desktop */
-/* Inicia seccion inicio desktop*/
-/* Finaliza seccion inicio desktop*/
-/* Inicia seccion inicio desktop*/
-/* Finaliza seccion inicio desktop*/
 /* Inicia seccion productos Mobile */
 @media only screen and (min-width: 220px) and (max-width: 480px) {
   .contenedor-general {
@@ -1396,10 +1392,6 @@ a {
   }
 }
 /* Finaliza seccion productos Desktop */
-/* Inicia seccion Retro desktop*/
-/* Finaliza seccion Retro desktop*/
-/* Inicia seccion Retro desktop*/
-/* Finaliza seccion Retro desktop*/
 /* Inicia seccion contacto Mobile*/
 @media only screen and (min-width: 220px) and (max-width: 480px) {
   .container-form {

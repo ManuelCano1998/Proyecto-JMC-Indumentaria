@@ -1,1 +1,10 @@
-@import 'base','header', 'botoneras', 'principal', 'aside', 'footer', './pages/index', './pages/productos', './pages/retro', './pages/contacto', './pages/quienessomos'
+@import "base";
+@import "header";
+@import "botoneras";
+@import "principal";
+@import "aside";
+@import "footer";
+
+@import "./pages/productos";
+@import "./pages/contacto";
+@import "./pages/quienessomos"
