@@ -1,5 +1,5 @@
 /* Inicia seccion productos Mobile */
-@media only screen and (min-width: 220px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   .contenedor-general{
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@
   }
 
   .card{
-    width: 10rem;
+    width: 15rem;
     padding: 2px;
     margin: 0px;
     border: solid 1px black;
@@ -22,7 +22,7 @@
     background-color: $colormain;
 
     img{
-      width: 8rem;
+      width: 10rem;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
       border: solid 1px black;    
       margin: 4px;
@@ -243,7 +243,7 @@
   }
 
   .card{
-    width: 15rem;
+    width: 20rem;
     padding: 5px;
     margin: 5px;
     border: solid 1px black;
@@ -254,7 +254,7 @@
     background-color: $colormain;
 
     img{
-      width: 12rem;
+      width: 13rem;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
       border: solid 1px black;   
       margin: 5px;

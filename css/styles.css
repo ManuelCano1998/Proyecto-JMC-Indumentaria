@@ -51,7 +51,7 @@ a {
 }
 
 /* Inicia header mobile*/
-@media only screen and (min-width: 220px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   header {
     grid-area: header;
     background: linear-gradient(#5f5756, #827f7c, #b4afa9);
@@ -89,7 +89,7 @@ a {
 }
 /* Finaliza header tablets y desktop */
 /* Inicia ambas botoneras Mobile*/
-@media only screen and (min-width: 0px) and (max-width: 580px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   .botonera-sup {
     display: flex;
     flex-direction: row;
@@ -216,7 +216,7 @@ a {
 }
 /* Finaliza ambas botoneras Mobile*/
 /* Inicia ambas botoneras Tablets*/
-@media only screen and (min-width: 581px) and (max-width: 1023px) {
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
   .close, input[type=checkbox] {
     display: none;
     margin-top: 3.5rem;
@@ -449,7 +449,7 @@ a {
 }
 /* Finaliza ambas botoneras Desktop */
 /* Finaliza aside Mobile*/
-@media only screen and (min-width: 220px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   aside {
     background-color: #46403d;
     font-family: "Inter", sans-serif;
@@ -533,7 +533,7 @@ a {
 }
 /* Inicia footer Desktop*/
 /* Inicia footer Mobile*/
-@media only screen and (min-width: 220px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   .texto-foot {
     display: flex;
     flex-direction: row;
@@ -821,7 +821,7 @@ a {
 }
 /* Finaliza footer Desktop */
 /* Inicia seccion Index/main Mobile*/
-@media only screen and (min-width: 220px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   main {
     background-color: #a39a92;
     font-family: "Inter", sans-serif;
@@ -1081,7 +1081,7 @@ a {
 }
 /* Finaliza seccion Index/main Desktop */
 /* Inicia seccion productos Mobile */
-@media only screen and (min-width: 220px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   .contenedor-general {
     display: flex;
     flex-direction: column;
@@ -1092,7 +1092,7 @@ a {
     margin: 0px;
   }
   .card {
-    width: 10rem;
+    width: 15rem;
     padding: 2px;
     margin: 0px;
     border: solid 1px black;
@@ -1103,7 +1103,7 @@ a {
     background-color: #a39a92;
   }
   .card img {
-    width: 8rem;
+    width: 10rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border: solid 1px black;
     margin: 4px;
@@ -1324,7 +1324,7 @@ a {
     margin: 10px;
   }
   .card {
-    width: 15rem;
+    width: 20rem;
     padding: 5px;
     margin: 5px;
     border: solid 1px black;
@@ -1335,7 +1335,7 @@ a {
     background-color: #a39a92;
   }
   .card img {
-    width: 12rem;
+    width: 13rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border: solid 1px black;
     margin: 5px;
@@ -1393,7 +1393,7 @@ a {
 }
 /* Finaliza seccion productos Desktop */
 /* Inicia seccion contacto Mobile*/
-@media only screen and (min-width: 220px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   .container-form {
     display: flex;
     width: auto;
@@ -1633,7 +1633,7 @@ a {
 }
 /* Finaliza seccion productos Desktop */
 /* Inicia seccion quienes somos mobile*/
-@media only screen and (min-width: 220px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   .nosotros {
     display: flex;
     flex-direction: column;

@@ -1,5 +1,5 @@
 /* Inicia ambas botoneras Mobile*/
-@media only screen and (min-width: 0px) and (max-width: 580px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   .botonera-sup {
     display: flex;
     flex-direction: row;
@@ -155,7 +155,7 @@
 
 
 /* Inicia ambas botoneras Tablets*/
-@media only screen and (min-width: 581px) and (max-width: 1023px) {
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
 
   .close, input[type="checkbox"] {
     display: none;
