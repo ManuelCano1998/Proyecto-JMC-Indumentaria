@@ -469,37 +469,6 @@ a {
   }
 }
 /* Finaliza ambas botoneras Desktop */
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-  .comprar {
-    background-color: #272322;
-    color: #e4dbcf;
-    border-radius: 5px;
-    border: none;
-    width: 5rem;
-    height: 2rem;
-  }
-  .comprar:hover {
-    background-color: #e4dbcf;
-    color: #272322;
-    border-radius: 5px;
-    border: 1px solid #272322;
-    transform: translateY(-3px) scale(1.05);
-    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.3);
-    margin: 2px;
-    padding: 2px;
-  }
-  .boton-sec {
-    background-color: #272322;
-    color: #e4dbcf;
-    border-radius: 5px;
-    border: none;
-  }
-  .boton-sec:hover {
-    background-color: #e4dbcf;
-    color: #272322;
-    border: 1px solid #272322;
-  }
-}
 @media only screen and (min-width: 481px) and (max-width: 743px) {
   .card-body {
     display: flex;
@@ -511,7 +480,7 @@ a {
   }
   .comprar {
     background-color: #272322;
-    color: #e4dbcf;
+    color: blue;
     border-radius: 4px;
     border: none;
     width: 2rem;
@@ -546,8 +515,9 @@ a {
   color: #e4dbcf;
   border-radius: 5px;
   border: none;
-  width: 5rem;
+  width: 4rem;
   height: 2rem;
+  font-size: 0.6rem;
 }
 
 .comprar:hover {
