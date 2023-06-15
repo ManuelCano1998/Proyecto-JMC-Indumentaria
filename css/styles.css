@@ -513,7 +513,7 @@ a {
 .comprar {
   background-color: #272322;
   color: #e4dbcf;
-  border-radius: 5px;
+  border-radius: 4px;
   border: none;
   width: 4rem;
   height: 2rem;
@@ -534,8 +534,11 @@ a {
 .boton-sec {
   background-color: #272322;
   color: #e4dbcf;
-  border-radius: 5px;
+  border-radius: 4px;
   border: none;
+  width: 4rem;
+  height: 2rem;
+  font-size: 0.5rem;
 }
 
 .boton-sec:hover {
