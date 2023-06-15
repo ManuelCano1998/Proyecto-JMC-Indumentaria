@@ -156,7 +156,6 @@
 
 /* Inicia ambas botoneras Tablets*/
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
-
   .close, input[type="checkbox"] {
     display: none;
     margin-top: 3.5rem;
@@ -187,7 +186,7 @@
     margin: 0px;
     padding: 5px;
     padding-right: 50px;
-    gap: 40px;
+    gap: 20px;
   
     button {
       background-color: #272322;
@@ -197,7 +196,7 @@
       margin: 0px;
       font-size: 1.5rem;
       align-items: center;
-      justify-content: space-between;
+      justify-content: center;
   
       input {
         justify-content: center;
@@ -220,13 +219,14 @@
   }
 
   nav {
+    width: auto;
     display: flex;
     flex-direction: row;
     text-align: center;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: 0px;
-    padding: 25px;
+    padding: 5px;
   
     ul {
       display: flex;
@@ -234,6 +234,7 @@
       flex-wrap: wrap;
       list-style: none;
       align-items: center;
+      justify-content: center;
   
       li {
         padding: 3px;
@@ -280,13 +281,34 @@
 
   .logo, .logo-dos {
     display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
     margin: 0px;
     padding: 0px;
   }
+
 }
 /* Finaliza ambas botoneras Tablets*/
 
+@media only screen and (min-width: 481px) and (max-width: 743px) {
+  .logo-dos{
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .logo{
+    display: none;
+  }
+}
 
 /* Inicia ambas botoneras Desktop */
 @media only screen and (min-width: 1024px) {

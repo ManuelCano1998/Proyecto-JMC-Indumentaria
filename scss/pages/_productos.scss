@@ -101,14 +101,14 @@
 /* Inicia seccion productos Tablets */
 @media only screen and (min-width: 481px) and (max-width: 1023px){
   .contenedor-mobile {
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin: 5px;
     padding: 5px;
   }
   .contenedor-dos {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     margin: 5px;
@@ -116,11 +116,12 @@
   }
 
   .card-dos{
+    width: 5rem;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     box-shadow: rgb(0, 0, 0, 0.55) 0px 15px 15px;
     margin: 5px;
-    padding: 5px;
+    padding: 10px;
     h1{
       font-size: 0.6rem;
       font-weight: $font-weight;
@@ -138,13 +139,13 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
     padding: 10px;
-    margin: 10px;
+    margin: 5px;
   }
 
   .card{
-    width: 12rem;
+    width: 10rem;
     padding: 5px;
     margin: 5px;
     border: solid 1px black;
@@ -155,15 +156,15 @@
     background-color: $colormain;
 
     img{
-      width: 8rem;
+      width: 5rem;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
       border: solid 1px black;   
-      margin: 5px;
+      margin: 2px;
     }
 
     body{
-      margin: 5px;
-      padding: 5px;
+      margin: 0px;
+      padding: 0px;
     }
 
     text{

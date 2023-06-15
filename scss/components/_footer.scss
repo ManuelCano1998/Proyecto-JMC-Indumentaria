@@ -112,18 +112,18 @@
     grid-area: footer;
     background-color: $colorfooter;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     font-family: $font-family;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     padding: 10px;
   }
   
   .texto-foot {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: start;
     font-family: $font-family;
     font-size: 1.5rem;
@@ -131,7 +131,6 @@
     color: #e4dbcf;
     padding: 10px;
     margin: 0px;
-    margin-left: 50px;
 
     p{
       margin: 0px;
