@@ -469,47 +469,7 @@ a {
   }
 }
 /* Finaliza ambas botoneras Desktop */
-@media only screen and (min-width: 481px) and (max-width: 743px) {
-  .card-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-    gap: 5px;
-  }
-  .comprar {
-    background-color: #272322;
-    color: blue;
-    border-radius: 4px;
-    border: none;
-    width: 2rem;
-    height: 2rem;
-    margin: 2px;
-    padding: 2px;
-  }
-  .comprar:hover {
-    background-color: #e4dbcf;
-    color: #272322;
-    border-radius: 5px;
-    border: 1px solid #272322;
-    transform: translateY(-3px) scale(1.05);
-    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.3);
-    margin: 5px;
-    padding: 2px;
-  }
-  .boton-sec {
-    background-color: #272322;
-    color: #e4dbcf;
-    border-radius: 4px;
-    border: none;
-  }
-  .boton-sec:hover {
-    background-color: #e4dbcf;
-    color: #272322;
-    border: 1px solid #272322;
-  }
-}
+/* Inicia botones de cada producto Mobile y Pc*/
 .comprar {
   background-color: #272322;
   color: #e4dbcf;
@@ -519,7 +479,6 @@ a {
   height: 2rem;
   font-size: 0.6rem;
 }
-
 .comprar:hover {
   background-color: #e4dbcf;
   color: #272322;
@@ -536,17 +495,61 @@ a {
   color: #e4dbcf;
   border-radius: 4px;
   border: none;
-  width: 4rem;
+  width: 3rem;
   height: 2rem;
   font-size: 0.5rem;
 }
-
 .boton-sec:hover {
   background-color: #e4dbcf;
   color: #272322;
   border: 1px solid #272322;
 }
 
+/* Finaliza botones de cada producto Mobile y Pc*/
+/* Inicia botones de cada producto Tablets*/
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .comprar {
+    background-color: #272322;
+    color: #e4dbcf;
+    border-radius: 4px;
+    border: none;
+    width: 4rem;
+    height: 2rem;
+    font-size: 0.6rem;
+  }
+  .comprar:hover {
+    background-color: #e4dbcf;
+    color: #272322;
+    border-radius: 5px;
+    border: 1px solid #272322;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.3);
+    margin: 2px;
+    padding: 2px;
+  }
+  .boton-sec {
+    background-color: #272322;
+    color: #e4dbcf;
+    border-radius: 4px;
+    border: none;
+    width: 3rem;
+    height: 2rem;
+    font-size: 0.5rem;
+  }
+  .boton-sec:hover {
+    background-color: #e4dbcf;
+    color: #272322;
+    border: 1px solid #272322;
+  }
+}
+/* Finaliza botones de cada producto Tablets*/
 /* Finaliza aside Mobile*/
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   aside {
